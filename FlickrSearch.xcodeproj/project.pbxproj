@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D54C10241F29B2DE001DAAA1 /* FlickrPhotoHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C10231F29B2DE001DAAA1 /* FlickrPhotoHeaderReusableView.swift */; };
 		D54E6D081F28C492002FE9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E6D071F28C492002FE9CC /* AppDelegate.swift */; };
 		D54E6D0D1F28C492002FE9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54E6D0B1F28C492002FE9CC /* Main.storyboard */; };
 		D54E6D0F1F28C492002FE9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54E6D0E1F28C492002FE9CC /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D54C10231F29B2DE001DAAA1 /* FlickrPhotoHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoHeaderReusableView.swift; sourceTree = "<group>"; };
 		D54E6D041F28C492002FE9CC /* FlickrSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54E6D071F28C492002FE9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D54E6D0C1F28C492002FE9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D54E6D071F28C492002FE9CC /* AppDelegate.swift */,
 				D54E6D0B1F28C492002FE9CC /* Main.storyboard */,
 				D54E6D191F28C6FF002FE9CC /* FlickrPhotoViewController.swift */,
+				D54C10231F29B2DE001DAAA1 /* FlickrPhotoHeaderReusableView.swift */,
 				D54E6D221F28D191002FE9CC /* FlickrPhotoCell.swift */,
 				D54E6D0E1F28C492002FE9CC /* Assets.xcassets */,
 				D54E6D101F28C492002FE9CC /* LaunchScreen.storyboard */,
@@ -159,6 +162,7 @@
 				D54E6D1F1F28C924002FE9CC /* FlickrPhoto.swift in Sources */,
 				D54E6D1A1F28C6FF002FE9CC /* FlickrPhotoViewController.swift in Sources */,
 				D54E6D211F28C929002FE9CC /* Flickr.swift in Sources */,
+				D54C10241F29B2DE001DAAA1 /* FlickrPhotoHeaderReusableView.swift in Sources */,
 				D54E6D081F28C492002FE9CC /* AppDelegate.swift in Sources */,
 				D54E6D231F28D191002FE9CC /* FlickrPhotoCell.swift in Sources */,
 			);
@@ -340,6 +344,7 @@
 				D54E6D181F28C492002FE9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
